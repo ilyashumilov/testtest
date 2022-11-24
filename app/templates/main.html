@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HelloService</title>
+    {% load static %}
+    <style>
+        h1 {
+            outline: none;
+            text-decoration: none;
+            padding: 8px;
+            margin: -10px;
+            color: white;
+            font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size:200%;
+            font-weight: 700%;
+           }
+        h1:hover {
+            color: gold;
+            cursor: pointer;
+        }
+        .box{
+            width: 1000px;
+            margin: 250px auto;
+            padding:30px;
+            position: relative;
+            text-align: center;
+            background-color: black;
+            border-radius: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class='box'>
+        <h1>Hello {{name}}!</h1>
+        <h1>{{message}}!</h1> 
+    </div>
+</body>
+</html>
